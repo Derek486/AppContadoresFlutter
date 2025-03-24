@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarea09/screens/counter_detail.dart';
+import 'package:counter_application/screens/counter_detail.dart';
 
 class CounterListScreen extends StatefulWidget {
   const CounterListScreen({super.key});

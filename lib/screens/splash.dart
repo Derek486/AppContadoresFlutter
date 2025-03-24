@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarea09/screens/counter_list.dart';
+import 'package:counter_application/screens/counter_list.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
             Row(
               children: [
                 Image.asset(
-                  'images/Vector.png',
+                  'assets/images/Vector.png',
                   width: 141,
                   height: 129,
                 ),
@@ -21,7 +21,7 @@ class SplashScreen extends StatelessWidget {
             ),
             const SizedBox(height: 29),
             Image.asset(
-              'images/onboarding-image.png',
+              'assets/images/onboarding-image.png',
               width: 180,
               height: 168,
             ),

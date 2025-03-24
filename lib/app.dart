@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tarea09/screens/splash.dart';
+import 'package:counter_application/screens/splash.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

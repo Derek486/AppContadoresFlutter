@@ -1,5 +1,5 @@
-name: tarea09
-description: "A new Flutter project."
+name: counter_application
+description: "An application for counter control, modification and deletion."
 publish_to: 'none'
 version: 0.1.0
 
@@ -17,15 +17,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
-fonts:
-  - family: Poppins
-    fonts:
-      - asset: assets/fonts/Poppins-Light.ttf
-        weight: 300
-      - asset: assets/fonts/Poppins-Regular.ttf
-        weight: 400
-      - asset: assets/fonts/Poppins-SemiBold.ttf
-        weight: 600
-      - asset: assets/fonts/Poppins-Bold.ttf
-        weight: 700
+
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
